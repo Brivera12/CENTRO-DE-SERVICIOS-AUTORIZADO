@@ -546,9 +546,10 @@
     } 
 
     .logo {
-        width: 50%;
-        height: 50%;
+        width: 80%;
+        height: 100%;
         margin: 0px;
+        padding: 0px;
     }
     .logo-sony {
         border: 0px solid white;
