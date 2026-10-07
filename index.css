@@ -359,11 +359,12 @@
 /* encabezado de la pagina */
     nav {
         
-        background-color:  #f7bb15!important;
+        background-color: #f7bb15!important;
         display: flex;
         justify-content: space-between;
         padding: 20px 20px;
         border-bottom: 0px solid var(--very-light-pink);
+       
     }
     .navbar-right ul {
         
@@ -396,7 +397,7 @@
         top: 70px;
         padding: 0px 10px;
         right: 0px;
-        background-color: #8e9696;
+        background-color: #f7bb15;
     }
     .mobile-menu a {
         text-decoration: none;
