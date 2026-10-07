@@ -42,26 +42,28 @@ h3 {
  
 /* boton Whatsapp */
 .whatsapp-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 999;
-    background-color: #25d366;
-    border-radius: 50px; 
-    width: 60px; 
-    height: 60px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease-in-out; 
-}
-.whatsapp-button img {
-    width: 50px;
-}
-.whatsapp-button:hover {
-    transform: scale(1.1);
-}
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 999;
+        background-color: #25d366;
+        border-radius: 50px; 
+        width: 60px; 
+        height: 60px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s ease-in-out; 
+        animation: efecto 1.2s infinite;
+    }
+    .whatsapp-button img {
+        width: 50px;
+    }
+    .whatsapp-button:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
 
 /* boton de llamada */
 .llamadas-button{
@@ -290,4 +292,22 @@ h3 {
    width: 100%;
 }
 
+}
+
+@keyframes scroll {
+    to {
+    transform: translate(calc(-50% - 0.5rem));
+    
+}
+}
+  
+
+@keyframes efecto {
+    0% {
+    box-shadow: 0 0 0 0 rgba(22, 54, 7, 0.822);
+        }
+
+    100% {
+    box-shadow: 0 0 0 25px rgba(126, 224, 80, 0);
+}
 }
