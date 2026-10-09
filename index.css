@@ -426,7 +426,7 @@
         top: 70px;
         padding: 20px 20px;
         right: 0px;
-        background-color:#f7bb15;
+        background-color: #f7bb15;
     }
     .samsung-lg a {
         text-decoration: none;
@@ -558,8 +558,24 @@
         margin: 0 40px;
     }
     .untitled-total {
+        border: 0px solid #ddd;
         display: flex;
         background-color: #c5caca;
+     
+    }
+
+    .untitled-total2 {
+        border: 0px solid #ddd;
+        display: flex;
+        background-color: #c5caca;
+     
+    }
+
+     .untitled-total3 {
+        border: 0px solid #ddd;
+        display: flex;
+        background-color: #c5caca;
+     
     }
 
     .untitled {
@@ -577,6 +593,8 @@
         padding: 30px;
         text-align: justify;  
     } 
+
+    
     .testimonial {
         width: 250px;
         height: 340px;
@@ -717,7 +735,24 @@
     .navbar-right ul { display: none;}
 
     }
+
+
+ @media (max-width: 950px) {
+
+     .untitled-total2 {
+        display: grid;
+    }
+
+    .untitled-total3 {
+        display: grid;
+    }
+
+
+ }
+
     @media (max-width: 900px) {
+
+   
     
     .numero-celular{
         text-align: center;
@@ -753,10 +788,12 @@
     }
     }
 
-    @media (max-width: 1200px) {
+    @media (max-width: 1700px) {
     .untitled-total {
         display: grid;
     }
+
+   
    
     }  
 

@@ -21,6 +21,13 @@
     h3 {
        font-size: 20px;
     }
+
+     .Negrita-texto{
+        font-weight: bold;
+        color: #000000;
+    }
+
+
     /* Encabezado */
    .encabezado-samsung {
        background-color: black;
@@ -90,6 +97,16 @@
         transform: scale(1.1);
     } 
     .untitled-total {
+        display: flex;
+        background-color: #c5caca;
+    }
+
+    .untitled-total2 {
+        display: flex;
+        background-color: #c5caca;
+    }
+
+    .untitled-total3 {
         display: flex;
         background-color: #c5caca;
     }
@@ -289,6 +306,15 @@
         .testimonial-orden {
             display: grid;
         }
+
+        .untitled-total3 {
+           display: grid;
+        }
+
+        .untitled-total2 {
+           display: grid;
+        }
+
         .logo-samsung {
             width: 200px;
         }
@@ -302,8 +328,13 @@
         
         }
 
+        @media (max-width: 1850px) {
+          
+        .untitled-total {
+           display: grid;
+        }
 
-
+        }
 
         
     @keyframes scroll {

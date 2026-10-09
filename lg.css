@@ -21,6 +21,13 @@ h2 {
 h3 {
    font-size: 20px;
 }
+
+.Negrita-texto{
+        font-weight: bold;
+        color: #000000;
+}
+
+
 /* Encabezado */
 .encabezado-samsung {
    background-color: black;
@@ -88,6 +95,16 @@ h3 {
     transform: scale(1.1);
 } 
 .untitled-total {
+    display: flex;
+    background-color: #c5caca;
+}
+
+.untitled-total2 {
+    display: flex;
+    background-color: #c5caca;
+}
+
+.untitled-total3 {
     display: flex;
     background-color: #c5caca;
 }
@@ -254,6 +271,15 @@ h3 {
 }
 
 }
+
+@media (max-width: 1840px) {
+.untitled-total {
+   display: grid;
+}
+
+}
+
+
 @media (max-width: 1024px) {
 .ss1 {
     display: grid;
@@ -286,6 +312,15 @@ h3 {
 .logo-samsung {
     width: 200px;
 }
+
+.untitled-total3 {
+    display: grid;
+}
+
+.untitled-total2 {
+    display: grid;
+}
+
 }
 @media (max-width: 500px) {
 .tv-samsung-4  {
@@ -293,6 +328,9 @@ h3 {
 }
 
 }
+  
+
+       
 
 @keyframes scroll {
     to {
